@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+    crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Select a class</h1>
+
+        <div class="task_container">
+            <div class="task_name" id="break" style="background-color: pink;">CH</div>
+            <div class="task_name" id="gym" style="background-color: #f68080;">ITE-6201</div>
+            <div class="task_name" id="study" style="background-color: #faae7b;">IT-6314</div>
+            <div class="task_name" id="tv" style="background-color: #2a9d8f;">ITE-6300</div>
+            <div class="task_name" id="friends" style="background-color: #a8dadc;">IT-622</div>
+            <div class="task_name" id="work" style="background-color: #bdb2ff;">CS-6303</div>
+            <div class="task_name" id="ewan" style="background-color: #b2ffd6;">HMRM</div>
+            <div class="task_name" id="gege" style="background-color: #0ad3ee;">MEIL-2122</div>
+            <div class="task_name" id="kainan" style="background-color: #0aee74;">Break</div>
+            <div class="task_name" id="last" style="background-color: #dfee0a;">CSS-2112</div>
+            <div class="task_name" id="deselect" style="background-color: white;">Delete</div>
+        </div>
+
+        <h3>Add selected class to the schedule</h3>
+
+        <div class="schedule_container">
+            <div class="days_container">
+                <span class="corner"></span>
+                <div class="day">MONDAY</div>
+                <div class="day">TUESDAY</div>
+                <div class="day">WEDNESDAY</div>
+                <div class="day">THURSDAY</div>
+                <div class="day">FRIDAY</div>
+                <div class="day">SATURDAY</div>
+            </div>
+            <div class="part_day">
+                <span class="time">8am <br> - <br> 9am</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+               
+            </div>
+            <div class="part_day">
+                <span class="time">9am <br> - <br> 10am</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+               
+            </div>
+            <div class="part_day">
+                <span class="time">10am <br> - <br> 11am</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+          
+            </div>
+            <div class="part_day">
+                <span class="time">11am <br> - <br> 12nn</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+              
+            </div>
+            <div class="part_day">
+                <span class="time">12nn <br> - <br> 1pm</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+         
+            </div>
+            <div class="part_day">
+                <span class="time">1pm <br> - <br> 2pm</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+             
+            </div>
+            <div class="part_day">
+                <span class="time">2pm <br> - <br> 3pm</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+           
+            </div>
+            <div class="part_day">
+                <span class="time">3pm <br> - <br> 4pm</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+          
+            </div>
+            <div class="part_day">
+                <span class="time">4pm <br> - <br> 5pm</span>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+                <div class="task"></div>
+            
+            </div>
+        </div>
+        
+        <button class="deleteBtn">Reset Schedule</button>
+
+        <div class="pop-up_container">
+            <div class="pop-up">
+                <h4>Are you sure you want to delete all the class from your schedule?</h4>
+
+                <div class="btn_container">
+                    <div class="btn_answer" id="btn_yes">YES</div>
+                    <div class="btn_answer" id="btn_no">NO</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
